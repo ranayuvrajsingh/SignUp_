@@ -1,0 +1,18 @@
+
+
+
+git init
+git add .
+git commit -m "first commit"
+// create heroku app and push to heroku
+
+heroku create
+git push heroku master
+
+
+
+To Push Changed Code
+
+git add .
+git commit -m "changed file name"
+git push heroku master
